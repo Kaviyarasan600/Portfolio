@@ -17,7 +17,7 @@ export const Footer = () => {
                     {/* <h1>Touch wit Me</h1> */}
                 </div>
                 <div className="F-Icons">
-                    <a className="I-Contain" href="https://www.linkedin.com/in/kaviyarasan-m-23b533236/" target="blank">
+                    <a className="I-Contain" href="https://www.linkedin.com/in/kaviyarasan6/" target="blank">
                         <button className="btn Linked"><FaLinkedin /></button>
                         <p className="icon">Linked</p>
                     </a>
