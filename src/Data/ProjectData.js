@@ -1,6 +1,6 @@
 import TodoList from '../assets/to-do-list.png'
 import Pro2 from '../assets/portfolio.png'
-import Calculator from '../assets/Calculator.PNG'
+import Calculator from '../assets/Calculator.png'
 
 export const ProjectData = [
     {
