@@ -2,7 +2,7 @@ import { useState } from 'react'
 import {NavData} from '../../Data/NavData'
 import { Option } from './Option'
 import './NavBar.css'
-const Navbar = () => {
+export const NavBar = () => {
     const [NavOpen, setNavOpen] = useState(false)
     const [NavScroll,setNavScroll] = useState(false)
     const Toggle = () => setNavOpen(!NavOpen)
@@ -46,4 +46,4 @@ const Navbar = () => {
     )
 }
 
-export default Navbar
+
