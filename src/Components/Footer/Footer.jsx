@@ -21,9 +21,9 @@ export const Footer = () => {
                         <button className="btn Linked"><FaLinkedin /></button>
                         <p className="icon">Linked</p>
                     </a>
-                    <a className="I-Contain" href='mailto:kaviyarasan110920@gmail.com'>
+                    <a className="I-Contain" href='mailto:kaviyarasanm55@gmail.com'>
                         <button className="btn gmail"><MdEmail /></button>
-                        <p className="icon">kaviyarasan110920@gmail.com</p>
+                        <p className="icon">kaviyarasanm55@gmail.com</p>
                     </a>
                     <a className="I-Contain" href="tel:8667746044">
                         <button className="btn phone"><FaPhone /></button>
