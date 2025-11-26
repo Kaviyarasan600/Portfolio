@@ -2,7 +2,7 @@ import React from "react";
 import { FaArrowUpRightFromSquare } from "react-icons/fa6";
 
 export const ProjectList = (props) => {
-    const { PName, Demo, Score, img } = props.data;
+    const { PName, Demo, Score, img, note1 } = props.data;
     return (
         <>
             <div key={PName} className="ProjectDetails">
@@ -11,9 +11,7 @@ export const ProjectList = (props) => {
                 <div className="ProjectImg" id={PName}>
                     <img src={img} alt={PName} className='img' id={PName} />
                 </div>
-
                 <div className="ProjectLink">
-                    {/* <h5 className="PName">{PName}</h5> */}
                     <div className="buttons">
                         <a href={Demo} target="_blank" rel="noopener noreferrer">
                             <button type="button" className="Projectbtn">
@@ -26,6 +24,7 @@ export const ProjectList = (props) => {
                             </button>
                         </a>
                     </div>
+                    <p className="notes">{note1}</p>
                 </div>
             </div>
         </>

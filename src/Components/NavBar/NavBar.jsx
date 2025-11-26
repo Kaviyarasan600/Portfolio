@@ -35,9 +35,9 @@ export const NavBar = () => {
                     <div className={NavOpen ? "MenuBar" : "MenuBars"} onClick={Toggle}>
                         <div className="OpenMenu">
                             <div className="bar bar1"></div>
-                            <div className="bar bar2"></div>
+                        <div className="bar bar2"></div>
                             <div className="bar bar3"></div>
-                        </div>
+                        </div> 
                         <div className="CloseMenu"><p className="Close">x</p></div>
                     </div>
                 </div>

@@ -17,15 +17,6 @@ export const Project = () => {
                     ))
                 }
             </div>
-            {/* <>
-                {
-                    ProjectData.map((Pro)=>(
-                        <ProjectList
-                            data = {Pro}
-                        />
-                    ))
-                }
-            </> */}
         </section>
     )
 }

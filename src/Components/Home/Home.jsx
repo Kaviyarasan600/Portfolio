@@ -1,6 +1,6 @@
 import { BsPerson } from "react-icons/bs";
 import { FaFileDownload } from "react-icons/fa";
-import Resume from '../../assets/KAVIYARASAN M.pdf'
+import Resume from '../../assets/Kaviyarasan.pdf'
 import { Link } from "react-scroll";
 import './Home.css'
 
@@ -11,7 +11,7 @@ export const Home = () => {
                 <div className="Profile">
                     <div className="Profile-img"><BsPerson /></div>
                     <h1 className="Profile-Name">Kaviyarasan</h1>
-                    <p className="Profile-Role">Full Stack Web Developer</p>
+                    {/* <p className="Profile-Role">Full Stack Web Developer</p> */}
                 </div>
                 <div className="Info">
                 <div className='InfoBtns'>
